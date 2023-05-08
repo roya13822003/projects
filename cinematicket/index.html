@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سینما تیکت</title>
+    <style>
+        @font-face {
+            font-family: 'Vazir';
+            src: url(vazir-font-v27.2.2-Fontjo.com/Vazir-Black.woff) format(woff);
+        }
+
+        .header {
+            font-family: 'Vazir';
+            float: left;
+            display: block;
+            margin-right: 0px;
+
+        }
+
+        div.header {
+            background-color: white;
+        }
+
+        body {
+
+            background-color: rgb(234, 234, 234);
+            margin: 0px;
+        }
+
+        div {
+            display: inline-block;
+            float: right;
+        }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            color: inherit;
+        }
+
+        .textheader {
+            margin: 20px;
+            font-size: 12px;
+
+            font-family: 'Vazir';
+            float: left;
+            vertical-align: middle;
+            margin-top: 20px;
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        .headerimg {
+            width: 96%;
+            border-radius: 10px;
+            margin-top: 25px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+
+        .left {
+            margin-right: 929px;
+
+        }
+
+        div.menu {
+            font-family: 'Vazir';
+            font-size: 11px;
+            float: right;
+            color: rgb(156, 156, 156);
+            margin-left: 50px;
+            text-align: left;
+            margin-right: 0px;
+        }
+
+        .menutext {
+            margin: 25px;
+        }
+
+        .majalle {
+            background-color: white;
+            padding: 20px 40px 20px 265px;
+            width: 98px;
+            text-align: right;
+            font-family: 'Vazir';
+            font-size: 14px;
+            border-radius: 10px;
+
+        }
+
+        .leftmenu {
+            width: 400px;
+
+
+        }
+
+        .leftmenuimg {
+            width: 30%;
+            margin: 20px;
+            vertical-align: top;
+        }
+
+        .leftmenutext {
+            font-family: 'Vazir';
+            margin: 40px 10px 5px 5px;
+            width: 220px;
+        }
+
+        .leftmenutext2 {
+            font-family: 'Vazir';
+            margin: 5px;
+            font-size: 10px;
+        }
+
+        div.leftmenu {
+            float: left;
+            margin-left: 50px;
+        }
+
+        .offer {
+            float: right;
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        div.offer2 {
+            width: 240px;
+            float: left;
+        }
+
+        .bottom {
+            font-family: 'Vazir';
+            font-size: 10px;
+            background-color: red;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .fosil {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        div.rightmenu {
+            width: 1083px;
+            margin: 32px;
+            margin-top: 0px;
+        }
+
+        .jadvalfroosh {
+            float: right;
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 10px;
+            font-family: 'Vazir';
+        }
+
+        .frooshtext {
+            float: left;
+        }
+
+        .frooshmenuimg {
+            width: 80px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .frooshp {
+            width: 150px;
+            margin: 10px 20px;
+            float: right;
+            font-size: 14px;
+            color: rgb(150, 150, 150);
+        }
+
+        .num {
+            margin-right: 200px;
+            font-size: 12px;
+            color: rgb(169, 169, 169);
+            margin-left: 10px;
+        }
+
+        .frooshtext2 {
+            font-size: 12px;
+            color: rgb(169, 169, 169);
+            margin: 10px;
+        }
+        .frooshtext3 {
+            font-size: 14px;
+            color: rgb(0, 0, 0);
+            margin: 10px;
+            margin-top: 20px;
+        }
+        .more {
+            font-size: 17px;
+            text-align: center;
+            color: red;
+            margin-left: 75px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .moreakhbar {
+            font-size: 17px;
+            text-align: center;
+            color: red;
+margin: 30px 130px;
+        }
+        div.items{
+            float: left;
+            width: 195px;
+            margin: 10px;
+        }
+        div.items2{
+            float: right;
+            width: 195px;
+            margin: 10px;
+        }
+        .itemimg{
+            width: 90%;
+            border-radius: 10px;
+        }
+        .ekran{
+            font-family: 'Vazir';
+            margin: 30px;
+            color: rgb(46, 46, 46);
+            width: 400px;
+            float: right;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .moshahede{
+            font-family: 'Vazir';
+margin: 30px;
+            color: red;
+            margin-right: 520px;
+            font-size: 16px;
+        }
+        .itemtext{
+            font-family: 'Vazir';
+            text-align: center;
+            font-size: 12px;
+        }
+        .footer{
+            background-color: rgb(52, 53, 66);
+            color: white;
+            width: 100%;
+        }
+        .footertext{
+            float: right;
+            margin: 12px;
+            font-family: 'Vazir';
+            font-size: 10px;
+
+        }
+        .akhbarimg{
+            height: 60px;
+            width: 60px;
+            margin: 5px;
+            border-radius: 5px;
+
+        }
+        .frooshtext4{
+width: 250px;
+font-size: 14px;
+            color: rgb(0, 0, 0);
+            margin: 10px;
+            margin-top: 20px;
+        }
+        a:hover{
+            background-color: rgb(213, 213, 213);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="right">
+            <a href="https://cinematicket.org/"><img class="logo" src="logo.png" alt="logo"> </a>
+            <a href="https://cinematicket.org/home/cinema" class="textheader">سینما</a>
+            <a href="https://cinematicket.org/home/movie" class="textheader">فیلم و تئاتر</a>
+        </div>
+        <div class="left">
+            <a href="https://cinematicket.org/" class="textheader">شهر خود را انتخاب کنید</a>
+            <a href="https://cinematicket.org/home/auth/login?returnUrl=%2F&nextUrl=dashboard%2Ftickets" class="textheader" >بلیت های من </a>
+            <a href="https://cinematicket.org/home/auth/login" class="textheader">ورود یا ثبت نام </a>
+        </div>
+        <br><br><br>
+        <div class="menu">
+            <a class="menutext" href="#">اکران </a>
+            <a class="menutext" href="#">تئاتر </a>
+            <a class="menutext" href="#">هنر و تجربه </a>
+            <a class="menutext" href="#"> تئاتر کمدی </a>
+            <a class="menutext" href="#">تئاتر کودک </a>
+            <a class="menutext" href="#">تفریحی</a>
+        </div>
+    </div>
+    <div class="main">
+        <a href="#"> <img class="headerimg" src="header.png"></a>
+        <div class="leftmenu">
+            <a class="majalle"
+                href="https://mag.cinematicket.org/?utm_source=underslider&utm_medium=referral&utm_campaign=magazine">مجله
+                سینماتیکت</a>
+            <div class="offer">
+                <img class="leftmenuimg" src="khanesalmandan2.png">
+                <div class="offer2"> <a class="leftmenutext" href="https://cinematicket.org/movie/detail/516">خانه
+                        سالنمدان بانوان
+                    </a>
+                    <a class="leftmenutext leftmenutext2" href="https://cinematicket.org/movie/detail/516"> بهزاد
+                        محمدی</a>
+                    <a class="leftmenutext2" href="https://cinematicket.org/movie/detail/516">بهزاد محمدی ، اصغر
+                        سمسارزاده ، زری برومند ، و...</a>
+                    <a class="leftmenutext2" href="https://cinematicket.org/movie/detail/516"> کمدی</a>
+                    <br> <br>
+                    <a class="bottom" href="https://cinematicket.org/movie/detail/516"> خرید بلیت </a>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="jadvalfroosh">
+                <p class="frooshp">جدول فروش</p>
+                <p class="frooshp"> بروزرسانی : دیروز</p>
+                <div class="froosh">
+                    <img class="frooshmenuimg" src="fosil2.png">
+                    <div class="frooshtext">
+                        <a class="frooshtext3" href="https://cinematicket.org/movie/detail/5886"> فسیل
+                        </a> <br>
+                        <a class="num" href="https://cinematicket.org/movie/detail/5886">
+                            52٬099٬022٬250</a> <br>
+                        <a class="frooshtext2" href="https://cinematicket.org/movie/detail/5886">کریم امینی</a>
+                    </div>
+                    <img class="frooshmenuimg" src="gharib.png">
+                    <div class="frooshtext">
+                        <a class="frooshtext3" href="https://cinematicket.org/movie/detail/5863"> غریب
+                        </a> <br>
+                        <a class="num" href="https://cinematicket.org/movie/detail/5863">  
+                      5٬642٬126٬500</a> <br>
+                        <a class="frooshtext2" href="https://cinematicket.org/movie/detail/5863">محمد حسین لطفی</a>
+                    </div>
+                    <img class="frooshmenuimg" src="aroos.png">
+                    <div class="frooshtext">
+                        <a class="frooshtext3" href="https://cinematicket.org/movie/detail/5032"> عروس خیابان فرشته
+                        </a> <br>
+                        <a class="num" href="https://cinematicket.org/movie/detail/5032">  
+
+                            3٬985٬366٬000</a> <br>
+                        <a class="frooshtext2" href="https://cinematicket.org/movie/detail/5032">مهدی خسروی</a>
+                    </div>
+                    <img class="frooshmenuimg" src="bache.png">
+                    <div class="frooshtext">
+                        <a class="frooshtext3" href="https://cinematicket.org/movie/detail/5863"> بچه های طوفان
+                        </a> <br>
+                        <a class="num" href="https://cinematicket.org/movie/detail/5863">  
+
+                            24٬859٬000</a> <br>
+                        <a class="frooshtext2" href="https://cinematicket.org/movie/detail/5863">صادق صادق دقیقی</a>
+                        <br>
+                        <a class="more" href="https://cinematicket.org/box-office">مشاهده کامل جدول فروش</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <br><br><br>
+            <div class="jadvalfroosh">
+                <p class="frooshp">اخبار سینما و تئاتر</p>
+                <div class="froosh">
+                    <img class="akhbarimg" src="case1.jpg">
+                    <div class="frooshtext">
+                        <a class="frooshtext3" href="https://mag.cinematicket.org/actor-series-review/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist"> ناخدای حمام جِنّی | نقد سریال «آکتور»
+                        </a> 
+                        
+                    </div>
+                    <br>
+                    <a class="frooshtext2" href="https://mag.cinematicket.org/actor-series-review/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist">9 ساعت پیش</a>
+                </div>
+                <div class="froosh">
+                    <img class="akhbarimg" src="case2.jpg">
+                    <div class="frooshtext">
+                        <a class="frooshtext3" href="https://mag.cinematicket.org/the-best-of-sam-mendes/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist"> برترین‌های سام مندس | بریتانیایی حساس
+                        </a> 
+                        
+                    </div>
+                    <br>
+                    <a class="frooshtext2" href="https://mag.cinematicket.org/the-best-of-sam-mendes/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist">13 ساعت پیش</a>
+                </div>
+                <div class="froosh">
+                    <img class="akhbarimg" src="case3.jpg">
+                    <div class="frooshtext">
+                        <a class="frooshtext4" href="https://mag.cinematicket.org/infinity-pool-2023-review/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist"> نقد فیلم «استخر بی نهایت» Infinity Pool | وحشت از خویشتن
+                        </a> 
+                        
+                    </div>
+                    <br>
+                    <a class="frooshtext2" href="https://mag.cinematicket.org/infinity-pool-2023-review/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist">2 روز پیش</a>
+                </div>
+                <div class="froosh">
+                    <img class="akhbarimg" src="case4.jpg">
+                    <div class="frooshtext">
+                        <a class="frooshtext4" href="https://mag.cinematicket.org/jadval-foroshe-haftegi-cinema/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist"> جدول فروش هفتگی سینمای ایران | از ۲۸ اسفند تا ۲۱ فروردین
+                        </a> 
+                        
+                    </div>
+                    <br>
+                    <a class="frooshtext2" href="https://mag.cinematicket.org/jadval-foroshe-haftegi-cinema/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist">4 روز پیش</a>
+                </div>
+                <div class="froosh">
+                    <img class="akhbarimg" src="case5.jpg">
+                    <div class="frooshtext">
+                        <a class="frooshtext4" href="https://mag.cinematicket.org/third-world-war-be-cinemaha-miayad/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist"> «جنگ جهانی سوم» و چهار فیلم دیگر به زودی به سینماها می‌آیند
+                        </a> 
+                        
+                    </div>
+                    <br>
+                    <a class="frooshtext2" href="https://mag.cinematicket.org/third-world-war-be-cinemaha-miayad/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist">4 روز پیش</a>
+                </div>
+                <div class="froosh">
+                    <img class="akhbarimg" src="case6.jpg">
+                    <div class="frooshtext">
+                        <a class="frooshtext4" href="https://mag.cinematicket.org/aroose-khiyabane-fereshteh-movie-review/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist"> 
+                            نقد فیلم «عروس خیابان فرشته» | داستان یک خانواده ایرانی
+                        </a> 
+                        
+                    </div>
+                    <br>
+                    <a class="frooshtext2" href="https://mag.cinematicket.org/aroose-khiyabane-fereshteh-movie-review/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist">5 روز پیش</a>
+                </div>
+                <div class="froosh">
+                    <img class="akhbarimg" src="case7.jpg">
+                    <div class="frooshtext">
+                        <a class="frooshtext4" href="https://mag.cinematicket.org/karnameye-bazigari-bahram-afshari/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist"> مروری بر کارنامه‌ بازیگری بهرام افشاری
+                        </a> 
+                        
+                    </div>
+                    <br>
+                    <a class="frooshtext2" href="https://mag.cinematicket.org/karnameye-bazigari-bahram-afshari/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist">5 روز پیش</a>
+                </div>
+                <div class="froosh">
+                    <img class="akhbarimg" src="case8.jpg">
+                    <div class="frooshtext">
+                        <a class="frooshtext4" href="https://mag.cinematicket.org/living-movie-2022-review/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist"> نقد فیلم «زندگی» Living | بحران رویارویی با زندگی
+                        </a> 
+                        
+                    </div>
+                    <br>
+                    <a class="frooshtext2" href="https://mag.cinematicket.org/living-movie-2022-review/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist">6 روز پیش</a>
+                </div>
+
+                <div class="froosh">
+                    <img class="akhbarimg" src="case9.jpg">
+                    <div class="frooshtext">
+                        <a class="frooshtext4" href="https://mag.cinematicket.org/gharib-movie-review2/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist"> نقد آوای مسیح دور از آشیانه | نقد فیلم «غریب»
+                        </a> 
+                        
+                    </div>
+                    <br>
+                    <a class="frooshtext2" href="https://mag.cinematicket.org/gharib-movie-review2/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist">6 روز پیش</a>
+                </div>
+                <div class="froosh">
+                    <img class="akhbarimg" src="case10.jpg">
+                    <div class="frooshtext">
+                        <a class="frooshtext4" href="https://mag.cinematicket.org/science-fiction-movies-of-2022/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist"> 
+                            بهترین فیلم ‌های علمی-تخیلی سال ۲۰۲۲ | فراتر از بی‌نهایت
+                        </a> 
+                        
+                    </div>
+                    <br>
+                    <a class="frooshtext2" href="https://mag.cinematicket.org/science-fiction-movies-of-2022/?utm_source=homesidebar&utm_medium=magnews&utm_campaign=toplist">13 روز پیش</a>
+                </div>
+                <br>
+                <a class="moreakhbar" href="https://mag.cinematicket.org/?utm_source=%20homesidebar&utm_medium=magnews&utm_campaign=showmore">نمایش اخبار بیشتر</a>
+
+            </div>
+        </div>
+        <div class="rightmenu">
+            <a href="https://cinematicket.org/movie/detail/5886"><img class="fosil" src="fosil.png"></a>
+            <p class="ekran">اکران</p>
+            <a class="moshahede" href="https://cinematicket.org/movie/more/1/%D8%A7%DA%A9%D8%B1%D8%A7%D9%86">مشاهده همه</a>
+            <br>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5863" class="item"><img class="itemimg" src="bache.png"></a>
+                <p class="itemtext">بچه های طوفان</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5032" class="item"><img class="itemimg" src="aroos.png"></a>
+                <p class="itemtext">عروس خیابان فرشته</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5863" class="item"><img class="itemimg" src="gharib.png"></a>
+                <p class="itemtext">غریب</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5886" class="item"><img class="itemimg" src="fosil2.png"></a>
+                <p class="itemtext">فسیل</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5721" class="item"><img class="itemimg" src="jang.png"></a>
+                <p class="itemtext">جنگ جهانی سوم</p>
+            </div>
+            <br> <br> <br><br> <br><br><br><br> <br><br><br><br> <br><br><br> <br> <br><br><br>
+            <div class="items">
+
+                <a href="https://cinematicket.org/movie/detail/5908" class="item"><img class="itemimg" src="gozaresh.png"></a>
+                <p class="itemtext">نمایش و نقد فیلم گزارش فرانسوی</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5657" class="item"><img class="itemimg" src="bokharest.png"></a>
+                <p class="itemtext">بخارست</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5576" class="item"><img class="itemimg" src="molaghat.png"></a>
+                <p class="itemtext">ملاقات خصوصی</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5009" class="item"><img class="itemimg" src="chaprast.png"></a>
+                <p class="itemtext">چپ راست</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5769" class="item"><img class="itemimg" src="khatostva.png"></a>
+                <p class="itemtext">خط استوا</p>
+            </div>
+            <p class="ekran">تئاتر</p>
+            <a class="moshahede" href="https://cinematicket.org/movie/more/147/%D8%AA%D8%A6%D8%A7%D8%AA%D8%B1">مشاهده همه</a>
+            <br>
+            <div class="items2">
+
+                <a href="https://cinematicket.org/movie/detail/5906" class="item"><img class="itemimg" src="pic1.png"></a>
+                <p class="itemtext">لانگ شات</p>
+            </div>
+            <div class="items2">
+                <a href="https://cinematicket.org/movie/detail/5901" class="item"><img class="itemimg" src="pic2png.png"></a>
+                <p class="itemtext">حضور آدم ها ممنوع</p>
+            </div>
+            <div class="items2">
+                <a href="https://cinematicket.org/movie/detail/5899" class="item"><img class="itemimg" src="pic3.png"></a>
+                <p class="itemtext">معرکه در معرکه</p>
+            </div>
+            <div class="items2">
+                <a href="https://cinematicket.org/movie/detail/5823" class="item"><img class="itemimg" src="pic4.png"></a>
+                <p class="itemtext">چند مرد وچند زن</p>
+            </div>
+            <a href="https://cinematicket.org/movie/detail/5887"><img class="fosil" src="kan.png"></a>
+            <p class="ekran">هنر و تجربه </p>
+            <a class="moshahede" href="https://cinematicket.org/movie/more/1/%D8%A7%DA%A9%D8%B1%D8%A7%D9%86">مشاهده همه</a>
+            <div class="items2">
+                <a href="https://cinematicket.org/movie/detail/5852" class="item"><img class="itemimg" src="davar.png"></a>
+                <p class="itemtext">دوار</p>
+            </div>
+            <div class="items2">
+                <a href="https://cinematicket.org/movie/detail/5887" class="item"><img class="itemimg" src="kanpamenar.png"></a>
+                <p class="itemtext">کن پامنار</p>
+            </div>
+            <div class="items2">
+                <a href="https://cinematicket.org/movie/detail/5803" class="item"><img class="itemimg" src="imo.png"></a>
+                <p class="itemtext">ایمو</p>
+            </div>
+            <a href="https://cinematicket.org/movie/detail/5715"><img class="fosil" src="merci.png"></a>
+            <p class="ekran">تئاتر کمدی</p>
+            <a class="moshahede" href="https://cinematicket.org/movie/more/1/%D8%A7%DA%A9%D8%B1%D8%A7%D9%86">مشاهده همه</a>
+            <br>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5763" class="item"><img class="itemimg" src="videocheck.png"></a>
+                <p class="itemtext">ویدیو چک</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5719" class="item"><img class="itemimg" src="pepperoni.png"></a>
+                <p class="itemtext">پپرونی</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5774" class="item"><img class="itemimg" src="ozakhite.png"></a>
+                <p class="itemtext">اوضاع خیطه</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5717" class="item"><img class="itemimg" src="barbadrafte.png"></a>
+                <p class="itemtext">بر باد رفته</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5327" class="item"><img class="itemimg" src="achmaz.png"></a>
+                <p class="itemtext">آچمز</p>
+            </div>
+            <br> <br> <br><br> <br><br><br><br> <br><br><br><br> <br><br><br> <br> <br><br><br>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/516" class="item"><img class="itemimg" src="khanebanovan.png"></a>
+                <p class="itemtext">خانه سالنمدان بانوان</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5768" class="item"><img class="itemimg" src="pent.png"></a>
+                <p class="itemtext">پنت هاوس</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5808" class="item"><img class="itemimg" src="sholmaghz.png"></a>
+                <p class="itemtext">شل مغزها</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5731" class="item"><img class="itemimg" src="zard.png"></a>
+                <p class="itemtext">زرد عقدی</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5730" class="item"><img class="itemimg" src="tofaghat.png"></a>
+                <p class="itemtext">تو فقط بخند</p>
+            </div>
+            <br> <br> <br><br> <br><br><br><br> <br><br><br><br> <br><br><br> <br> <br><br><br>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5764" class="item"><img class="itemimg" src="shilepile.png"></a>
+                <p class="itemtext">شیله پیله</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5765" class="item"><img class="itemimg" src="ghamar.png"></a>
+                <p class="itemtext">قمر در ونیز</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5784" class="item"><img class="itemimg" src="moftkhor.png"></a>
+                <p class="itemtext">مفت خور</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5875" class="item"><img class="itemimg" src="bedonbal.png"></a>
+                <p class="itemtext">به دنبال پول</p>
+            </div>
+            <div class="items">
+                <a href="https://cinematicket.org/movie/detail/5732" class="item"><img class="itemimg" src="ocasion.png"></a>
+                <p class="itemtext">اوکازیون</p>
+            </div>
+            <p class="ekran"> تئاتر کودک</p>
+            <a class="moshahede" href="https://cinematicket.org/movie/more/4/%D8%AA%D8%A6%D8%A7%D8%AA%D8%B1%20%DA%A9%D9%88%D8%AF%DA%A9">مشاهده همه</a>
+            <div class="items2">
+                <a href="https://cinematicket.org/movie/detail/5789" class="item"><img class="itemimg" src="manyek.png"></a>
+                <p class="itemtext">من یک عروسکم</p>
+            </div>
+            <div class="items2">
+                <a href="https://cinematicket.org/movie/detail/5830" class="item"><img class="itemimg" src="meymoon.png"></a>
+                <p class="itemtext">میمون ها</p>
+            </div>
+            <div class="items2">
+                <a href="https://cinematicket.org/movie/detail/5822" class="item"><img class="itemimg" src="jangshadi.png"></a>
+                <p class="itemtext">جنگ کودک عمو الیاس</p>
+            </div>
+            <br> <br> <br><br> <br><br><br><br> <br><br><br><br> <br><br><br> <br> <br><br><br>
+            <p class="ekran"> تفریحی</p>
+            <a class="moshahede" href="https://cinematicket.org/movie/more/94/%D8%AA%D9%81%D8%B1%DB%8C%D8%AD%DB%8C">مشاهده همه</a>
+            <div class="items2">
+                <a href="https://cinematicket.org/movie/detail/5789" class="item"><img class="itemimg" src="sirk.png"></a>
+                <p class="itemtext">سیرک ایران-پرتقال</p>
+            </div>
+        </div>
+    </div>
+<div class="footer">
+    <a class="footertext" href="https://cinematicket.org/box-office">جدول فروش</a>
+    <a class="footertext" href="https://cinematicket.org/faq">سوالات متداول</a>
+    <a class="footertext" href="https://cinematicket.org/coming-soon">برنامه های آینده</a>
+    <a class="footertext" href="https://cinematicket.org/movie-archive">آرشیو فیلم ها</a>
+    <a class="footertext" href="https://cinematicket.org/terms">قوانین ومقررات</a>
+    <a class="footertext" href="https://cinematicket.org/about">درباره ما</a>
+    <a class="footertext" href="https://cinematicket.org/contact-us">تماس با سینما تیکت</a>
+
+<a class="footertext" href="">مجله سینما تیکت</a>
+
+
+
+
+
+
+
+</div>
+</body>
+
+</html>
