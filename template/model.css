@@ -1,0 +1,253 @@
+body{
+    margin: 0px;
+    font-family: Verdana ;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+div.header{
+width: 100%;
+height: 100%;
+background-size: cover;
+display: inline-block;
+font-size: 13px;
+}
+div.header div.menu{
+    display: inline-block;
+    margin: 27px 45px;
+}
+div.header div.leftmenu{
+    width: 33%;
+    display: inline-block;
+
+}
+div.header div.rightmenu{
+    width: 33%;
+    display: inline-block;
+}
+div.header div.middlemenu{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+}
+div.header div.textmenu h1{
+    text-align: center;
+    margin: 300px 20px 10px;
+    font-size: 150px;
+    color: rgb(159, 181, 189);
+    
+}
+div.header div.textmenu h2{
+    text-align: center;
+    margin: 1px;
+    font-size: 20px;
+    color: rgb(186, 209, 218);
+}
+div.header div.bottoms{
+    text-align: center;
+    direction: inherit;
+    display: inline-block;
+    margin: 200px 560px 70px;
+    margin-right: 0px;
+}
+div.header div.bottoms div.bottomleft{
+    background-color: rgb(114, 111, 161);
+    border-radius: 10px;
+    color: white;
+    padding: 20px 30px;
+    width: 100px;
+    display: inline-block;
+    margin: 20px;
+}
+div.header div.bottoms div.bottomright{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(114, 111, 161);
+    padding: 20px 30px;
+    width: 100px;
+    display: inline-block;
+    margin: 20px;
+}
+div.main div.list1 div.pic{
+    display: inline-block;
+    width: 33%;
+    margin-top: 50px;
+}
+div.main div.list1 div.pic img{
+    width: 100%;
+
+}
+div.main div.list2 div.pic2 img{
+    width: 100%;
+
+}
+div.main div.list2 div.pic2{
+    display: inline-block;
+    width: 49%;
+    margin-top: 0px;
+}
+div.main div.shape div.leftshape img{
+    width: 100%;
+    margin: 200px 20px 90px 20px;
+}
+div.main div.shape div.leftshape{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    
+}
+div.main div.shape div.middleshape{
+display: inline-block;
+width: 33%;
+vertical-align: top;
+}
+div.main div.shape div.middleshape img{
+width: 50%;
+margin: 180px 30px 40px 200px;
+}
+div.main div.shape div.middleshape p{
+text-align: center;
+font-size: 15px;
+ color: rgb(114, 111, 161); 
+}
+div.main div.shape div.middleshape h2{
+text-align: center;
+ color: rgb(83, 80, 116); 
+ margin-bottom: 60px;
+margin-top: 30px;
+}
+div.main div.shape div.rightshape{
+display: inline-block;
+width: 33%;
+vertical-align: top;
+}
+div.main div.shape div.rightshape img{
+width: 50%;
+margin: 290px 20px;
+}
+div.main div.shape div.middleshape img.star{
+    width: 50%;
+    margin: 40px 50px 0px 10px;
+}
+div.main div.products div.row1 div.product{
+    display: inline-block;
+    width: 29%;
+    margin: 15px;
+    margin-left: 42px;
+    overflow: hidden;
+}
+div.main div.products div.row1 div.product img{
+    width: 100%;
+
+}
+div.main div.products div.row1 div.product a:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+div.main div.products div.row1 div.product p{
+    text-align: center;
+    font-size: 13px;
+    color:rgb(114, 111, 161) ;
+
+}
+div.main div.leftpier{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 130px;
+}
+div.main div.rightpier{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 90px;
+}
+div.main div.rightpier img{
+    width: 100%;
+}
+div.main div.leftpier h2{
+    margin-bottom: 50px;
+    color: rgb(114, 111, 161);
+}
+div.main div.leftpier p{
+    color: rgb(114, 111, 161);
+}
+div.main div.leftpier div.bottomleft{
+    background-color: rgb(114, 111, 161);
+    border-radius: 5px;
+    color: white;
+    padding: 20px 30px;
+    width: 100px;
+    display: inline-block;
+    margin: 50px 5px;
+    font-size: 13px;
+    text-align: center;
+}
+div.main div.follow div.img{
+    width: 19.7%;
+    display: inline-block;
+    margin: 0px;
+}
+div.main div.follow div.img img{
+    width: 100%;
+    margin: 0px;
+}
+div.main div.follow h3{
+text-align: center;
+color: rgb(72, 69, 108);
+    margin: 40px;
+    font-size: 14px;
+}
+div.main div.down div.colon1{
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    color:rgb(72, 69, 108) ;
+    margin: 40px;
+}
+div.main div.down div.colon2{
+    width: 9.5%;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(72, 69, 108);
+    margin: 70px;
+}
+div.main div.down div.colon2 a{
+    color: rgb(72, 69, 108);
+    margin: 10px;
+    font-size: 14px;
+}
+div.main div.down div.colon2 a:hover{
+    text-decoration: underline;
+}
+div.main div.down div.colon2 h4{
+    color: rgb(72, 69, 108);
+    margin: 10px;
+}
+div.main div.down div.colon1 h1{
+    color: rgb(72, 69, 108);
+    margin: 50px;
+}
+div.main div.down div.colon1 h4{
+    color: rgb(72, 69, 108);
+    margin: 50px 50px 10px;
+    font-size: 17px;
+}
+div.main div.down div.colon1 p{
+    color: rgb(72, 69, 108);
+    margin: 0px 50px 20px;
+    font-size: 14px;
+}
+div.footer{
+    width: 100%;
+
+    
+}
+div.footer p {
+    padding: 50px;
+    color:rgb(165, 157, 166) ;
+    background-color:rgb(72, 69, 108) ;
+}
