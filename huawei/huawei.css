@@ -1,0 +1,541 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+div.blackheader {
+    background-color: black;
+    font-size: 11px;
+    color: rgb(155, 155, 155);
+    width: 100%;
+    direction: rtl;
+}
+
+div.blackheader div.toplist {
+    display: inline-block;
+    margin: 0px 35px 0px 25px;
+}
+
+div.blackheader div.toplist p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.blackheader div.toplist svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.whiteheader {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    height: 60px;
+}
+
+div.whiteheader div.logo img {
+    width: 9%;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    display: inline-block;
+
+}
+
+div.whiteheader div.text a {
+    display: inline-block;
+    color: rgb(71, 71, 71);
+    margin: 0px 20px 0px 20px;
+    font-size: 16px;
+}
+
+div.whiteheader div.text {
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+div.whiteheader div.icons {
+    position: absolute;
+    top: 13px;
+    left: 90%;
+}
+
+div.whiteheader div.icons svg {
+    margin: 10px;
+    color: black;
+}
+
+div.p60img img {
+    width: 100%;
+    position: relative;
+
+
+}
+
+div.p60img a {
+    position: absolute;
+    top: 48%;
+    left: 65%;
+    border: 1px solid rgb(45, 45, 45);
+    background-color: white;
+    padding: 10px 49px;
+    color: rgb(45, 45, 45);
+}
+
+div.p60img a:hover {
+    background-color: rgb(225, 57, 57);
+    color: white;
+    border: 0px;
+}
+
+div.new {
+    margin: 60px 0px;
+    width: 100%;
+}
+
+div.new h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+
+div.new div.row div.bigimg {
+    width: 54%;
+    margin: 15px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+div.new div.row div.bigimg img {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    left: 110px;
+
+
+}
+
+div.new img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+div.new div.row div.bigimg h2 {
+    position: absolute;
+    color: white;
+    top: 1130px;
+    left: 150px;
+
+}
+
+div.new div.row div.bigimg h3 {
+    position: absolute;
+    color: white;
+    top: 1100px;
+    left: 150px;
+}
+
+div.new div.row div.bigimg p {
+    position: absolute;
+    color: white;
+    top: 1170px;
+    left: 150px;
+    font-size: 15px;
+}
+
+div.new div.row div.smallimg {
+    width: 32%;
+    margin: 15px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+div.new div.row div.smallimg img {
+    width: 100%;
+    height: 450px;
+    position: relative;
+
+
+}
+
+div.new div.row div.smallimg h2 {
+    position: absolute;
+    color: white;
+    top: 1130px;
+    left: 980px;
+
+}
+
+div.new div.row div.smallimg h3 {
+    position: absolute;
+    color: white;
+    top: 1100px;
+    left: 980px;
+}
+
+div.new div.row div.smallimg p {
+    position: absolute;
+    color: rgb(188, 187, 187);
+    top: 1170px;
+    left: 980px;
+    font-size: 15px;
+}
+
+div.new div.row2 div.smallimg {
+    width: 37%;
+    margin: 15px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+div.new div.row2 div.smallimg img {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    left: 110px;
+
+}
+
+div.new div.row2 div.smallimg h2 {
+    position: absolute;
+    color: white;
+    top: 1605px;
+    left: 150px;
+    width: 400px;
+    font-size: 22px;
+
+}
+
+div.new div.row2 div.smallimg h3 {
+    position: absolute;
+    color: white;
+    top: 1570px;
+    left: 150px;
+}
+
+div.new div.row2 div.bigimg {
+    width: 53%;
+    margin: 15px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+div.new div.row2 div.bigimg img {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    left: 10px;
+
+
+}
+
+div.new div.row2 div.bigimg h2 {
+    position: absolute;
+    width: 780px;
+    color: white;
+    top: 1625px;
+    left: 680px;
+    margin-bottom: 0px;
+    font-size: 22px;
+
+}
+
+div.new div.row2 div.bigimg h3 {
+    position: absolute;
+    color: white;
+    top: 1580px;
+    left: 680px;
+}
+
+div.new div.row3 {
+    margin-left: 98px;
+}
+
+div.new div.row3 div.medium {
+    display: inline-block;
+    overflow: hidden;
+    width: 28%;
+    margin: 24px;
+}
+
+div.new div.row3 div.medium img {
+    position: relative;
+    width: 100%;
+}
+
+div.new div.row3 div.medium h3 {
+    position: absolute;
+    top: 1955px;
+    margin-left: 23px;
+    color: white;
+}
+
+div.new div.row3 div.medium h2 {
+    position: absolute;
+    top: 1985px;
+    margin-left: 20px;
+    color: white;
+    width: 400px;
+    font-size: 22px;
+}
+
+div.new div.row3 div.medium p {
+    position: absolute;
+    top: 2020px;
+    margin-left: 20px;
+    color: white;
+}
+
+div.edu img {
+    width: 100%;
+    position: relative;
+}
+
+div.edu a {
+    position: absolute;
+    top: 2540px;
+    left: 760px;
+    border: 1px solid rgb(45, 45, 45);
+    background-color: white;
+    padding: 10px 49px;
+    color: rgb(45, 45, 45);
+}
+
+div.edu a:hover {
+    background-color: rgb(225, 57, 57);
+    color: white;
+    border: 0px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 60px;
+}
+
+div.new2 {
+    margin-left: 140px;
+
+}
+
+div.new2 div.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 27%;
+    background-color: rgb(225, 225, 225);
+    padding-bottom: 20px;
+    margin: 20px;
+    height: 450px;
+    overflow: auto;
+}
+
+div.new2 div.card img {
+    width: 100%;
+}
+
+div.card p {
+    color: rgb(107, 107, 107);
+    margin: 17px 0px 10px 10px;
+
+}
+
+div.card h4 {
+    color: rgb(55, 55, 55);
+    margin-left: 17px;
+}
+
+div.new2 div.card div.information svg {
+    display: inline-block;
+    color: rgb(107, 107, 107);
+}
+
+div.new2 div.card div.information p {
+    display: inline-block;
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+}
+
+div.card div.information {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+div.new2 div.card div.text {
+    margin: 28px 5px;
+    margin-bottom: 0px;
+}
+
+div.new2 div.card div.text h4 {
+    margin: 50px 15px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+div.new2 div.card div.text p {
+    margin: 15px;
+    margin-top: 5px;
+}
+
+div.new2 div.card div.event {
+    position: absolute;
+    top: 2835px;
+
+}
+
+div.new2 div.card div.news {
+    position: absolute;
+    top: 2847px;
+    left: 1025px;
+    margin-left: 0px;
+}
+
+div.new2 div.card div.event p {
+    background-color: rgb(132, 132, 132);
+    padding: 10px 15px;
+    color: white;
+    vertical-align: top;
+    margin-left: 0px;
+
+}
+
+div.new2 div.card div.news p {
+    background-color: rgb(132, 132, 132);
+    padding: 10px 15px;
+    color: white;
+    vertical-align: top;
+    margin-left: 14px;
+}
+div.more{
+    margin: 40px;
+    margin-left: 550px;
+
+}
+div.more div.morebottom{
+    display: inline-block;
+    margin: 10px;
+}
+div.more div.morebottom a{
+    border: 1px solid rgb(54, 54, 54);
+    background-color: white;
+    padding: 10px 49px;
+    color: rgb(54, 54, 54);
+}
+div.more div.morebottom a:hover{
+    background-color: rgb(225, 57, 57);
+    color: white;
+    border: 0px;
+}
+footer{
+    background-color: rgb(226, 226, 226);
+}
+div.home{
+margin: 30px;
+width: 90%;
+}
+div.home a{
+    position: absolute ;
+    top: 3500px;
+    left: 140px;
+    color: rgb(68, 68, 68);
+    border-bottom: 1px solid rgb(184, 184, 184);
+    width: 83%;
+    padding-bottom: 20px;
+}
+div.lins{
+    margin-left: 140px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding-bottom: 50px;
+}
+div.lins div.line{
+    width: 18%;
+    display: inline-block;
+    margin-top: 120px;
+    vertical-align: top;
+}
+div.lins div.line a{
+    width: 100%;
+    display: inline-block;
+    color: rgb(95, 95, 95);
+    margin: 15px 0px;
+    font-size: 15px;
+}
+div.lins div.line h4{
+    width: 200px;
+    display: inline-block;
+    color: rgb(26, 26, 26);
+    margin: 15px 0px;
+}
+div.link div.text{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 130px;
+    margin-top: 45px;
+}
+div.link div.text div.footertext {
+    display: inline-block;
+
+}
+div.link div.text div.footertext a{
+  margin: 10px;
+  color: rgb(95, 95, 95);
+  font-size: 15px;
+}
+div.link div.icons{
+    display: inline-block;
+    vertical-align: top;
+    
+    position: relative;
+    top: 30px;
+    left: 49%;
+}
+div.link div.icons svg{
+    display: inline-block;
+    margin: 10px;
+    color: rgb(105, 105, 105);
+    height: auto;
+    width: 25px;
+}
+div.secondfooter {
+    background-color: rgb(215, 211, 211);
+    height: 50px;
+    padding: 0px;
+    margin-top: 40px;
+}
+div.secondfooter div.item{
+display: inline-block;
+margin:0px 20px;
+position: relative;
+left: 400px;
+}
+div.secondfooter div.item p{
+color: rgb(104, 104, 104);
+display: inline-block;
+}
+div.secondfooter div.item a{
+color: rgb(104, 104, 104);
+display: inline-block;
+}
+div.heading svg{
+    position: fixed;
+    top: 870px;
+    right: 0px;
+    background-color: rgb(254, 85, 85);
+    padding: 5px;
+    color: white;
+    font-size: large;
+    height: auto;
+    width: 30px;
+}
